@@ -6,7 +6,7 @@ declare(strict_types=1);
  * erhält bei Erfolg ein frisch signiertes Ed25519-Token zurück.
  *
  * Request  (POST, JSON oder Form):
- *   { "key": "...", "domain": "chat.example.de", "instance": "..." }
+ *   { "key": "...", "domain": "chat.nooky.cc", "instance": "..." }
  *
  * Response (JSON):
  *   erfolgreich: { "valid": true,  "token": "<payload>.<sig>" }

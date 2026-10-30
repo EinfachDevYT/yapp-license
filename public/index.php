@@ -163,7 +163,7 @@ function render_dashboard(array $keys): void
     layout_head('Keys');
     echo '<div class="card"><h1>Neuen Key erzeugen</h1>';
     echo '<form method="post" class="grid"><input type="hidden" name="action" value="create">' . csrf_field();
-    echo '<label>Domain<input name="domain" placeholder="chat.example.de" required></label>';
+    echo '<label>Domain<input name="domain" placeholder="chat.nooky.cc" required></label>';
     echo '<label>Max. Instanzen<input type="number" name="max_instances" value="1" min="1"></label>';
     echo '<label>Laufzeit (Tage, 0 = unbegrenzt)<input type="number" name="days" value="0" min="0"></label>';
     echo '<label>Notiz<input name="note" placeholder="Kunde / Projekt"></label>';

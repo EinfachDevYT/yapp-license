@@ -26,7 +26,7 @@ Anleitung für beide Teile: [nooky-chat/INSTALL.md](https://github.com/EinfachDe
 
 ## API
 
-`POST /api/verify.php` mit JSON `{"key": "...", "domain": "chat.example.de", "instance": "..."}`
+`POST /api/verify.php` mit JSON `{"key": "...", "domain": "chat.nooky.cc", "instance": "..."}`
 
 - Erfolg: `{"valid": true, "token": "<payload>.<signatur>"}`
 - Abgelehnt: `{"valid": false, "reason": "locked|expired|bad_domain|too_many|unknown_key|bad_request"}`
