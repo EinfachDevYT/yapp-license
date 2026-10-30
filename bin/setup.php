@@ -97,6 +97,6 @@ echo "Admin:         '{$user}' angelegt/aktualisiert\n";
 
 // Public Key ausgeben.
 echo "\n== Public Key für den Chat ==\n";
-echo "Diesen Wert im Chat als YAPP_LICENSE_PUBLIC_KEY hinterlegen:\n\n";
+echo "Diesen Wert in der config.php des Chats unter 'public_key' eintragen:\n\n";
 echo Keystore::publicKeyBase64() . "\n\n";
 echo "Fertig.\n";

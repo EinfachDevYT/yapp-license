@@ -20,7 +20,8 @@ Document Root ist `public/`.
 sudo -u www-data php bin/setup.php
 ```
 
-Den ausgegebenen Public Key im Chat als `YAPP_LICENSE_PUBLIC_KEY` hinterlegen.
+Den ausgegebenen Public Key in der `config.php` des Chats unter `'license' => ['public_key' => …]` eintragen.
+Anleitung für beide Teile: [yapp-chat/INSTALL.md](https://github.com/EinfachDevYT/yapp-chat/blob/main/INSTALL.md).
 `data/keys.json` enthält den privaten Schlüssel – sichern und nie veröffentlichen.
 
 ## API
