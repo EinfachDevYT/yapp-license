@@ -22,8 +22,8 @@ if (PHP_SAPI !== 'cli') {
 require dirname(__DIR__) . '/src/Db.php';
 require dirname(__DIR__) . '/src/Keystore.php';
 
-use Yapp\License\Db;
-use Yapp\License\Keystore;
+use Nooky\License\Db;
+use Nooky\License\Keystore;
 
 $force = in_array('--force', $argv, true);
 
@@ -41,7 +41,7 @@ function prompt(string $label, bool $hidden = false): string
     return $value;
 }
 
-echo "== yapp-license Setup ==\n\n";
+echo "== nooky-license Setup ==\n\n";
 
 // Datenbank anlegen/migrieren.
 $pdo = Db::pdo();

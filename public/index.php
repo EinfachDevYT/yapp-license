@@ -10,9 +10,9 @@ require dirname(__DIR__) . '/src/Db.php';
 require dirname(__DIR__) . '/src/Auth.php';
 require dirname(__DIR__) . '/src/Keystore.php';
 
-use Yapp\License\Auth;
-use Yapp\License\Db;
-use Yapp\License\Keystore;
+use Nooky\License\Auth;
+use Nooky\License\Db;
+use Nooky\License\Keystore;
 
 Auth::boot();
 
@@ -122,9 +122,9 @@ function layout_head(string $title): void
     $csrf = Auth::csrfToken();
     echo '<!doctype html><html lang="de"><head><meta charset="utf-8">';
     echo '<meta name="viewport" content="width=device-width, initial-scale=1">';
-    echo '<title>' . e($title) . ' · yapp-license</title>';
+    echo '<title>' . e($title) . ' · nooky-license</title>';
     echo '<style>' . panel_css() . '</style></head><body>';
-    echo '<header><div class="brand">yapp<span>·license</span></div><nav>';
+    echo '<header><div class="brand">nooky<span>·license</span></div><nav>';
     if (Auth::check()) {
         echo '<a href="?page=dashboard">Keys</a><a href="?page=log">Log</a>';
         echo '<a class="ghost" href="?page=logout">Abmelden</a>';

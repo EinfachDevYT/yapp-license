@@ -1,6 +1,6 @@
-# yapp-license
+# nooky-license
 
-Lizenzserver für [yapp-chat](https://github.com/EinfachDevYT/yapp-chat). PHP 8.4, SQLite, kein Framework.
+Lizenzserver für [nooky-chat](https://github.com/EinfachDevYT/yapp-chat). PHP 8.4, SQLite, kein Framework.
 
 ## Aufbau
 
@@ -21,7 +21,7 @@ sudo -u www-data php bin/setup.php
 ```
 
 Den ausgegebenen Public Key in der `config.php` des Chats unter `'license' => ['public_key' => …]` eintragen.
-Anleitung für beide Teile: [yapp-chat/INSTALL.md](https://github.com/EinfachDevYT/yapp-chat/blob/main/INSTALL.md).
+Anleitung für beide Teile: [nooky-chat/INSTALL.md](https://github.com/EinfachDevYT/yapp-chat/blob/main/INSTALL.md).
 `data/keys.json` enthält den privaten Schlüssel – sichern und nie veröffentlichen.
 
 ## API

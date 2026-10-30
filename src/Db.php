@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Yapp\License;
+namespace Nooky\License;
 
 use PDO;
 

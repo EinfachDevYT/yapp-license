@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Yapp\License;
+namespace Nooky\License;
 
 /**
  * Admin-Login (Session) und CSRF-Schutz fürs Panel.
@@ -17,7 +17,7 @@ final class Auth
                 'secure'   => (($_SERVER['HTTPS'] ?? '') !== '')
                               || (($_SERVER['HTTP_X_FORWARDED_PROTO'] ?? '') === 'https'),
             ]);
-            session_name('yapp_lic');
+            session_name('nooky_lic');
             session_start();
         }
     }

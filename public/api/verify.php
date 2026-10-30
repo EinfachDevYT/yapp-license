@@ -17,8 +17,8 @@ require dirname(__DIR__, 2) . '/src/Db.php';
 require dirname(__DIR__, 2) . '/src/Keystore.php';
 require dirname(__DIR__, 2) . '/src/Token.php';
 
-use Yapp\License\Db;
-use Yapp\License\Token;
+use Nooky\License\Db;
+use Nooky\License\Token;
 
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store');

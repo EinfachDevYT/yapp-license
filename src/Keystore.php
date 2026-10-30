@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Yapp\License;
+namespace Nooky\License;
 
 /**
  * Hält das Ed25519-Schlüsselpaar des Lizenzservers (data/keys.json).
